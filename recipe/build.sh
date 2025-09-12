@@ -24,3 +24,5 @@ if [[ "${CONDA_BUILD_CROSS_COMPILATION}" != "1" || "${CROSSCOMPILING_EMULATOR:-}
   make check -j${CPU_COUNT}
 fi
 make install
+
+find $PREFIX
