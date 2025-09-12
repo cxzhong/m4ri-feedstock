@@ -36,7 +36,7 @@ test:
     - echo 1
     - if not exist %LIBRARY_BIN%\\m4ri-1.dll exit 1                     # [win]
     - echo 2
-    - if not exist %LIBRARY_LIB%\\m4ri.dll.lib exit 1                   # [win]
+    - if not exist %LIBRARY_LIB%\\m4ri.lib exit 1                       # [win]
     - echo 3
     - if exist %LIBRARY_LIB%\\m4ri_static.lib exit 1                    # [win]
     - echo 4
