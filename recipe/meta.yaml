@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/malb/m4ri/archive/refs/tags/{{ version }}.tar.gz
-  sha256: f9e5d0f13b34b55feb33babd04ecb59512639fea6e289b977f9b938d8b38fc69
+  sha256: f35110cc4393be26a12308de2b2566c8a3d96539f2c03c5ab315042fe95e51a5
 
 build:
   number: 0
